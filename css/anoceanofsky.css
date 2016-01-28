@@ -208,7 +208,7 @@ position:relative;
 width:650px;
 height:325px;
 top:10px;
-background-image:url(img/contactPhoto.jpg);
+background-image:url(img\contactPhoto.jpg);
 background-repeat:no-repeat;
 margin-left:10px;
 }
@@ -226,7 +226,7 @@ position:relative;
 width:650px;
 height:325px;
 top:10px;
-background-image:url(img/boxThumb.jpg);
+background-image:url(img\boxThumb.jpg);
 background-repeat:no-repeat;
 margin-left:10px;
 }
@@ -244,7 +244,7 @@ position:relative;
 width:650px;
 height:325px;
 top:10px;
-background-image:url(img/bluewatermussels.jpg);
+background-image:url(img\bluewatermussels.jpg);
 background-repeat:no-repeat;
 margin-left:10px;
 }
@@ -262,7 +262,7 @@ position:relative;
 width:650px;
 height:325px;
 top:10px;
-background-image:url(img/UC_Santa_Cruz.JPG);
+background-image:url(img\UC_Santa_Cruz.JPG);
 background-repeat:no-repeat;
 margin-left:10px;
 }
@@ -280,7 +280,7 @@ position:relative;
 width:650px;
 height:325px;
 top:10px;
-background-image:url(img/contactPhoto.jpg);
+background-image:url(img\contactPhoto.jpg);
 background-repeat:no-repeat;
 margin-left:10px;
 }
