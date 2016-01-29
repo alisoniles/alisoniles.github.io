@@ -256,7 +256,7 @@ height:345px;
 background-color:#FFFFFF;
 }
 
-#cvPicture.picture
+#cvPicture .picture
 {
 position:relative;
 width:650px;
