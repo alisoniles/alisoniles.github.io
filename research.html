@@ -26,44 +26,68 @@
 
 <div class="contentTitle">Research philosophy</div><br />
         <div class="contentText">
-<p>My approach is to develop general ecological theory using mathematical models and then test it empirically. I use stochastic multispecies models of ecological communities in order to make predictions about how environmental processes shape community structure and dynamics. I then test my model predictions in aquatic ecosystems using a variety of empirical methods, including field observations and lab experiments. </p><br />
+<p>My approach is to develop general ecological theory and then test it empirically. To develop theory I use both computational and analytical methods, including simulations of stochastic multispecies models of ecological communities and analyses of the resulting community matrices. I test model predictions in aquatic ecosystems using a variety of empirical methods, including field observations and lab experiments. </p><br />
 
 </div>
 
 <div class="contentTitle">Ecological network complexity and predictive certainty</div><br />
-          <div class="contentText">
-<p>The complexity of ecological networks has long plagued attempts to predict species responses to perturbations. The more speciose and connected the network, the lower the confidence in model predictions, unless accurate estimates of species interaction strengths are known. Low predictive certainty results from the many direct and indirect pathways that contribute to each species overall response to a perturbation. Consequently, most models of community dynamics rely on simplifying assumptions to reduce network complexity and much effort has focused on quantifying interaction strengths. In my current postdoc position with ,<a href="http://people.oregonstate.edu/~novakm/">Mark Novak</a>, we are investigating how allometric relationships between body size, interaction strength, and network topology may constrain sensitivity and improve predictive certainty of complex networks. </p><br />
+<div class="contentText">
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+               <tr valign="top">
+               <td width="130"><img src="img/Network_vertical.png" width="130" height="450" border="1" class="home" /></td>
 
-<p>We simulated allometric trophic networks with topologies varying in species richness and connectance using the niche model. Parameters contributing to interaction strengths (metabolic, ingestion, and production rates) were dependent on species body masses, drawn from empirical distributions of predator/prey body mass ratios. Predictive sensitivity was assessed by systematically varying the uncertainty of interaction strength estimates with respect to the “true” equilibrial responses of each simulated community. </p><br />
-
-<p>We have found that allometrically-constrained networks had considerably improved average predictability over non-constrained networks. Further, and counter-intuitively, complexity (connectance) increased predictability when networks were allometrically constrained. This occurred because the distribution of interaction strengths is key to predictive certainty and is directly influenced by allometry, species richness, and connectivity. As a consequence, having accurate estimates of only the strongest 5% of species interactions dramatically improves predictability, especially for highly speciose and connected networks. We conclude that efforts to predict the response of multispecies communities to perturbations will profit by incorporating allometric scaling, embracing network complexity (i.e. avoiding network simplification), and accurately identifying and estimating the strength of the strongest species interactions in the community (Iles and Novak <i>in prep</i>).
-</p><br />
-
- </div>
+<td width="*">
+<p>Our capacity to forecast how species respond to press perturbations such as climate change is limited by our imprecise knowledge of pairwise species interaction strengths and the many direct and indirect pathways along which perturbations can propagate between species. Network complexity (size and connectance) has thereby been seen to limit the predictability of ecological systems.</p><br />
+<p> In this study, <a href="http://people.oregonstate.edu/~novakm/">Mark Novak</a> and I demonstrate a counteracting mechanism in which the influence of indirect effects declines with network complexity when species interactions are governed by universal allometric constraints. With these constraints network size and connectance interact to produce a skewed distribution of interaction strengths whose skewness becomes more pronounced with increasing complexity. Together, the increased prevalence of weak interactions and the increased relative strength and rarity of strong interactions in complex networks limit disturbance propagation and preserve the qualitative predictability of net effects even when pairwise interaction strengths exhibit substantial variation or uncertainty.</p><br />
+<p>(This work will appear soon in The American Naturalist - stay tuned!)</p>
+</td></tr></table>         
+</div>
 
 <div class="contentTitle">Effects of environmental temperature on community dynamics</div><br />
-          <div class="contentText">
-<p>Although temperature is often identified as the main environmental factor defining the distribution of marine species, the mechanisms producing these patterns are not well understood. My Ph.D. research began with a theoretical evaluation of the effects of temperature on community stability, population stability and species persistence in simulated allometric trophic network (ATN) models. The ATN model (built in MATLAB), generates random food web matrices using the 'niche' algorithm and assigns body masses to each species by randomly drawing on a realistic distribution of predator-prey body mass ratios (following Brose et al. 2006). I programmed temperature dependence into the metabolic and ingestion rate parameters based on the methods developed by Vasseur & McCann (2005). I then evaluated the effect of the temperature scaling parameters by running repeated numerical simulations of randomly generated webs at different temperatures. Species persistence in the model webs was greatest when ingestion rates were not as sensitive to temperature as metabolic rates; However, species persistence under this parameter configuration decreased with increasing temperatures (Iles <i>in prep</i>). This pattern of reduced species persistence at higher temperatures has been observed in natural ecosystems and microcosm experiments. Thus, I predicted that ectotherm consumers in natural ecosystems would be likely to exhibit metabolic rates that increase faster with temperature than ingestion rates.</p><br />
+<div class="contentText">
+    <table width="100%" border="0" cellpadding="10" cellspacing="0">
+               <tr valign="top">
+               <td width="130"><img src="img/Intertidal_animals.png" width="130" height="450" border="1" class="home" /></td>
 
-<p>Since limited data is available on the temperature dependency of ingestion rates relative to metabolic rates, I tested the theoretical prediction derived from my numerical simulations by empirically quantifying the relative temperature scaling of metabolic and ingestion rates for a suite of rocky intertidal invertebrate consumers. The results support the model predictions; consumer basal metabolic rates do tend to be more sensitive to temperature than ingestion rates. Thus, as temperature increases, metabolic rates tend to increase faster than ingestion rates (Iles <i>in revision</i>).</p><br />
- </div>
+<td width="*">
+<p>Although temperature is often identified as the main environmental factor defining the distribution of marine species, the mechanisms producing these community-level patterns are not well understood. Using simulated allometric trophic network (ATN) models, I investigated community-level patterns that emerge from individual-level (physiology) temperature effects. I found that the persistence of cold-adapted ecototherms was greatest when ingestion rates were not as sensitive to temperature as metabolic rates. However, the persistence of these species under this parameter configuration decreased with increasing temperatures (Iles <i>in prep</i>), as oberved in natural ecosystems and microcosm experiments. This result suggested that cold-adapted ectotherm consumers would be likely to exhibit metabolic rates that increase faster with temperature than ingestion rates.</p><br />
 
-
-<div class="contentTitle">Predator-prey body size ratios and energy flow through food webs</div><br />
-          <div class="contentText">
-<p>Most research in aquatic ecosystem toxicology focuses on the direct, physiological effects of pollutants on fish. My master's research demonstrated a mechanism for indirect effects on growth, due to changes in energy flow through a modified food web (Iles and Rasmussen 2005, Rasmussen et al. 2008). As fish grow larger, they tend to shift their diet to larger prey, maintaining a relatively low predator/prey body size ratio. However, lakes with metal-contaminated sediments lack large-bodied invertebrate prey, such as crayfish, forcing juvenile fish to rely on small prey, such as zooplankton. We found that the energetic costs of foraging for many, small prey, ultimately causes stunted growth. Thus, a diverse prey base is essential for maintaining energetically profitable predator/prey body size ratios.</p><br />
-<p>     Acknowledging the importance of predator/prey body size ratios, I incorporated body size as a factor when experimentally measuring the temperature effects on rocky intertidal consumer ingestion and metabolic rates. I documented a hump-shaped relationship between predator/prey body size ratios and species interaction strength, indicating constraints at both ends of the spectrum.</p><br />
+<p>As an empirical test, I quantified the relative temperature scaling of metabolic and ingestion rates for a suite of rocky intertidal invertebrate consumers. As predicted, intertidal consumer basal metabolic rates were more sensitive to temperature than ingestion rates. Such general patterns across species in the relative temperature scaling of biological rates are extremely powerful for scaling up effects to the community-level (Iles 2014 <i>Ecology</i>).</p><br />
+</td></tr></table>  
  </div>
 
 
 <div class="contentTitle">Long-term trends in environmental forcing</div><br />
-          <div class="contentText">
-<p>To predict these community-level impacts, we must also have an understanding of how environmental conditions are changing in the long-term. Coastal upwelling is a natural process in which seasonal weather patterns bring deep, cold, nutrient rich water to the sunlit surface, resulting in highly productive coastal ecosystems. As upwelling is driven by large-scale atmospheric patterns, global climate change has the potential to affect a wide range of significant ecological processes through changes in water chemistry, water temperature, and the transport processes that influence species dispersal and recruitment. In collaboration with <a href="http://people.oregonstate.edu/~gouhiert/index.html">Tarik Gouhier</a> and my advisor, <a href="http://mytilus.science.oregonstate.edu/BAM.html">Bruce Menge</a>, we examined long-term trends in the frequency, duration, and strength of upwelling events for the California Current System along the coast of Oregon and California. We found long-term trends towards stronger and more persistent upwelling events, a pattern which is consistent with climate change predictions (Iles, Gouhier, Menge et al. 2012). We predicted several consequences of these trends, including extended periods of reduced water temperatures and modified recruitment dynamics for near shore ecosystems.</p><br />
-<p>     This work has recently led to an exploratory wavelet clustering project in collaboration with <a href="http://www.biologie.ens.fr/~cazelles/bernard/Welcome.html">Bernard Cazelles</a>. Our objective is to quantify pair wise differences in wavelet spectra among intertidal invertebrate recruitment, water temperature, and upwelling time series data to determine if they cluster based on environmental conditions.</p><br />
+<div class="contentText">
+               <table width="100%" border="0" cellpadding="10" cellspacing="0">
+               <tr valign="top">
+               <td width="130"><img src="img/wavelet.png" width="130" height="450" border="1" class="home" /></td>
+
+<td width="*">
+<p>In order to predict community-level impacts, we must also understand of how the environmental conditions in which ecological communities exist are changing.</p><br />
+<p>Along the U.S. west coast, seasonal upwelling brings deep, cold, nutrient rich water to the ocean surface, resulting in highly productive coastal ecosystems. As upwelling is driven by large-scale atmospheric patterns, global climate change has the potential to affect a wide range of significant ecological processes through changes in water chemistry, water temperature, and the transport processes that influence species dispersal and recruitment. In collaboration with <a href="http://www.northeastern.edu/synchrony/">Tarik Gouhier</a> and my advisor, <a href="http://mytilus.science.oregonstate.edu/BAM.html">Bruce Menge</a>, we examined long-term trends in the frequency, duration, and strength of upwelling events for the California Current System along the coast of Oregon and California. We found trends towards stronger and more persistent upwelling events, a pattern which is consistent with climate change predictions (<a href="pdfs/Iles_2011_GCB.pdf"><img src="icon/PDF-icon.png" alt="pdf" width="12" height="12" class="pdf"></a> <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2011.02567.x/abstract">Iles, Gouhier, Menge et al. 2012</a>). We predicted several consequences of these trends, including extended periods of reduced water temperatures and modified recruitment dynamics for near shore ecosystems.</p><br />
+</td></tr></table>  
+ </div>
+
+
+<div class="contentTitle">Predator-prey body size ratios and energy flow through food webs</div><br />
+<div class="contentText">
+<div class="contentText">
+               <table width="100%" border="0" cellpadding="10" cellspacing="0">
+               <tr valign="top">
+               <td width="130"><img src="img/yellow_perch.png" width="130" height="450" border="1" class="home" /></td>
+
+<td width="*">
+<p>Most research in aquatic ecosystem toxicology focuses on the direct, physiological effects of pollutants on fish growth. My master's research demonstrated community-level effects on fish growth, due to changes in energy flow through a modified food web (<a href="pdfs/Iles_Rasmussen_05.pdf"><img src="icon/PDF-icon.png" alt="pdf" width="12" height="12" class="pdf" /></a> <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2427.2005.01380.x/abstract">Iles and Rasmussen 2005</a>, <a href="pdfs/Rasmussen_2008.pdf"><img src="icon/PDF-icon.png" alt="pdf" width="12" height="12" class="pdf" /></a> <a href="http://search.ebscohost.com/login.aspx?direct=true&db=aph&AN=31632339&site=ehost-live">Rasmussen et al. 2008</a>). As fish grow larger, they tend to shift their diet to larger prey, maintaining a relatively low predator/prey body size ratio. However, lakes with metal-contaminated sediments lack large-bodied invertebrate prey, such as crayfish, forcing juvenile fish to rely on small prey, such as zooplankton. We found that the energetic costs of foraging for many, small prey, ultimately causes stunted growth. Thus, a diverse prey base is essential for maintaining energetically profitable predator/prey body size ratios.</p><br />
+<p>Acknowledging the importance of predator/prey body size ratios, I incorporated body size as a factor when experimentally measuring the temperature effects on rocky intertidal consumer ingestion and metabolic rates. I documented a hump-shaped relationship between predator/prey body size ratios and species interaction strengths, indicating constraints at both ends of the spectrum.</p><br />
+</td></tr></table>  
+ </div>
+
+
+
  </div>
  </div>
- </div>
- </div>
+
 
     <div id="footer">
 	         &nbsp;Content &copy; 2012 <strong><a href="mailto:ilesa@science.oregonstate.edu">Alison C. Iles</a></strong> | Design based on a <strong><a href="http://www.free-templates.me">template</a>

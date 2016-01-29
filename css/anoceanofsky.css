@@ -256,13 +256,13 @@ height:345px;
 background-color:#FFFFFF;
 }
 
-#cvPicture.picture
+#cvPicture .picture
 {
 position:relative;
 width:650px;
 height:325px;
 top:10px;
-background-image:url(../img/UC_Santa_Cruz.JPG);
+background-image:url(../img/UC_Santa_Cruz.jpg);
 background-repeat:no-repeat;
 margin-left:10px;
 }
